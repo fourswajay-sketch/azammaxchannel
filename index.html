@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tovuti Yangu</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html, body {
+      height: 100%;
+      font-family: Arial, sans-serif;
+      overflow: hidden; /* Kuondoa scroll ya body */
+    }
+    header {
+      background-color: #4CAF50;
+      color: white;
+      text-align: center;
+      padding: 1em;
+      font-size: 1.2em;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 10;
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 0.8em;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      z-index: 10;
+    }
+    iframe {
+      position: absolute;
+      top: 60px; /* height ya header */
+      bottom: 40px; /* height ya footer */
+      left: 0;
+      right: 0;
+      width: 100%;
+      height: calc(100% - 100px); /* header + footer */
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Karibu kwenye Tovuti Yangu</h1>
+</header>
+
+<iframe src="https://azam-two.rf.gd/?i=2" title="Tovuti ya Azam"></iframe>
+
+<footer>
+  <p>&copy; 2026 Tovuti Yangu | <a href="https://azam-two.rf.gd/?i=2" target="_blank" style="color: #4CAF50;">Fungua moja kwa moja</a></p>
+</footer>
+
+</body>
+</html>
