@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tovuti Yangu (Iframe)</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body, html {
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            font-size: 1.2em;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 0.8em;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        iframe {
+            display: block;
+            width: 100%;
+            /* Subtract header + footer height (in px) */
+            height: calc(100% - 120px);
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Karibu kwenye Tovuti Yangu</h1>
+</header>
+
+<iframe src="https://azam-two.rf.gd/?i=2" title="Tovuti ya Azam"></iframe>
+
+<footer>
+    <p>&copy; 2026 Tovuti Yangu</p>
+</footer>
+
+</body>
+</html>
